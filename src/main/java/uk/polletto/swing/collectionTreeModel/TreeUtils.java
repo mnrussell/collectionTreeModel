@@ -1,4 +1,4 @@
-package swing.collectionTreeModel;
+package uk.polletto.swing.collectionTreeModel;
 
 import java.util.Enumeration;
 import java.util.NoSuchElementException;

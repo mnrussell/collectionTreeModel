@@ -1,4 +1,4 @@
-package swing.tree;
+package uk.polletto.swing.collectionTreeModel;
 
 class Book {
     String publisher;

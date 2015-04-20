@@ -1,4 +1,4 @@
-package swing.tree;
+package uk.polletto.swing.collectionTreeModel;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,9 +9,6 @@ import javax.swing.tree.TreeNode;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
-
-import swing.collectionTreeModel.CollectionTreeModel;
-import swing.collectionTreeModel.TreeUtils;
 
 import com.google.common.collect.Lists;
 

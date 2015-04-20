@@ -1,4 +1,4 @@
-package swing.tree;
+package uk.polletto.swing.collectionTreeModel;
 
 import static org.junit.Assert.assertEquals;
 
@@ -7,7 +7,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
-import swing.collectionTreeModel.Hierarchy;
+import uk.polletto.swing.collectionTreeModel.Hierarchy;
 
 import com.google.common.collect.ImmutableList;
 

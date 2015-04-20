@@ -1,4 +1,4 @@
-package swing.collectionTreeModel;
+package uk.polletto.swing.collectionTreeModel;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

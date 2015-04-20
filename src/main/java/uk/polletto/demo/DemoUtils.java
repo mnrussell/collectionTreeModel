@@ -1,4 +1,4 @@
-package swing.demo;
+package uk.polletto.demo;
 
 import java.awt.Container;
 

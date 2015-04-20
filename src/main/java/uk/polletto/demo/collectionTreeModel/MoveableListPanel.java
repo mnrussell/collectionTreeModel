@@ -1,7 +1,7 @@
-package swing.demo.collectionTreeModel;
+package uk.polletto.demo.collectionTreeModel;
 
 import static com.google.common.base.Preconditions.checkState;
-import static swing.UIConstants.GAP;
+import static uk.polletto.swing.UIConstants.GAP;
 import info.clearthought.layout.TableLayout;
 
 import javax.swing.DefaultListModel;

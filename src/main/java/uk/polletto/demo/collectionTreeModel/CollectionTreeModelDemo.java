@@ -1,6 +1,6 @@
-package swing.demo.collectionTreeModel;
+package uk.polletto.demo.collectionTreeModel;
 
-import static swing.UIConstants.GAP;
+import static uk.polletto.swing.UIConstants.GAP;
 import info.clearthought.layout.TableLayout;
 
 import java.awt.BorderLayout;
@@ -13,10 +13,10 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTree;
 
-import swing.collectionTreeModel.CollectionTreeModel;
-import swing.collectionTreeModel.Hierarchy;
-import swing.collectionTreeModel.TreeUtils;
-import swing.demo.DemoUtils;
+import uk.polletto.demo.DemoUtils;
+import uk.polletto.swing.collectionTreeModel.CollectionTreeModel;
+import uk.polletto.swing.collectionTreeModel.Hierarchy;
+import uk.polletto.swing.collectionTreeModel.TreeUtils;
 
 import com.google.common.collect.Lists;
 

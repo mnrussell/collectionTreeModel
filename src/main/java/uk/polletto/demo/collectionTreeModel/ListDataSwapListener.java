@@ -1,4 +1,4 @@
-package swing.demo.collectionTreeModel;
+package uk.polletto.demo.collectionTreeModel;
 
 import java.util.EventListener;
 

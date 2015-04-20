@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>uk.mnrussell.collectionTreeModel</groupId>
+  <groupId>uk.polletto.collectionTreeModel</groupId>
   <artifactId>collectionTreeModel</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>2015.04.20</version>
   <name>collectionTreeModel</name>
   <description>Support for creating Swing TreeModels from Collections.</description>
 
@@ -30,11 +30,11 @@
         <version>2.5.3</version>
         <configuration>
           <descriptorRefs>
-            <descriptorRef>jar-with-dependencies</descriptorRef>
+            <descriptorRef>executable-jar</descriptorRef>
           </descriptorRefs>
           <archive>
             <manifest>
-              <mainClass>swing.demo.collectionTreeModel.CollectionTreeModelDemo</mainClass>
+              <mainClass>uk.polletto.demo.collectionTreeModel.CollectionTreeModelDemo</mainClass>
             </manifest>
           </archive>
         </configuration>
