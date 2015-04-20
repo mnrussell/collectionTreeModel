@@ -23,14 +23,19 @@
       <plugin>
         <artifactId>maven-jar-plugin</artifactId>
         <version>2.6</version>
+        <configuration>
+          <includes>
+            <include>uk/polletto/swing/collectionTreeModel/*</include>
+          </includes>
+        </configuration>
       </plugin>
-
+      
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
         <version>2.5.3</version>
         <configuration>
           <descriptorRefs>
-            <descriptorRef>executable-jar</descriptorRef>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
           </descriptorRefs>
           <archive>
             <manifest>
@@ -48,7 +53,6 @@
           </execution>
         </executions>
       </plugin>
-
     </plugins>
   </build>
 
