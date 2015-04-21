@@ -33,7 +33,9 @@ import java.util.stream.Collectors;
  * </p>
  * <p>
  * <blockquote><pre>
- * +publisher + author + title
+ * + publisher
+ *   + author
+ *     + title
  * </pre></blockquote>
  * </p>
  * <p>

@@ -39,7 +39,9 @@ import com.google.common.collect.ImmutableList;
  * </p>
  * <p>
  * <blockquote><pre>
- * +publisher + author + title
+ * +publisher
+ *   + author
+ *     + title
  * </pre></blockquote>
  * </p>
  * <p>

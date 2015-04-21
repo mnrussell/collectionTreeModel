@@ -5,7 +5,7 @@ import info.clearthought.layout.TableLayout;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
-import java.util.List;
+import java.util.Collection;
 
 import javax.swing.DefaultListModel;
 import javax.swing.JList;
@@ -46,7 +46,7 @@ public class CollectionTreeModelDemo extends JPanel {
         }
     }
 
-    private final List<Book> bookCollection = Lists.newArrayList(
+    private final Collection<Book> bookCollection = Lists.newArrayList(
             new Book("Orbit", "Iain M.Banks", "The Player Of Games"),
             new Book("Orbit", "Iain M.Banks", "Use Of Weapons"),
             new Book("Penguin", "William Gibson", "Virtual Light"),
@@ -72,7 +72,7 @@ public class CollectionTreeModelDemo extends JPanel {
         bookHierarchy.addNode(b -> b.getAuthor(), "Author");
         bookHierarchy.addNode(b -> b.getTitle(), "Title");
 
-        treeModel = new CollectionTreeModel<Book>(bookCollection, bookHierarchy);
+        treeModel = new CollectionTreeModel<>(bookCollection, bookHierarchy);
 
         jTree = new JTree(treeModel);
         jTree.setShowsRootHandles(true);
@@ -103,8 +103,7 @@ public class CollectionTreeModelDemo extends JPanel {
         JList<Object> jList = new JList<>(listModel);
         jList.setSelectedIndex(0);
 
-        MoveableListPanel<Object> controlPanel = new MoveableListPanel<Object>(
-                jList);
+        MoveableListPanel<Object> controlPanel = new MoveableListPanel<Object>(jList);
 
         controlPanel.setSwapListener(evt -> {
             bookHierarchy.swapNodes(evt.getSwapIndex0(), evt.getSwapIndex1());
