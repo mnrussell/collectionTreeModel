@@ -1,8 +1,13 @@
 #CollectionTreeModel
 
+<img src="https://github.com/mnrussell/collectionTreeModel/blob/master/collectionTreeModelIcon.png"
+ alt="CollectionTreeModel logo" title="CollectionTreeModel" align="right" />
 
 *CollectionTreeModel* is a Java Swing utility for the quick and easy creation of immutable
-TreeModels from Collections.
+TreeModels from Collections.  
+  
+  
+
 
 ##Background
 It is rarely the case that the data objects that you wish to present in a `JTree` enjoy the natural parent child relationship usually seen in examples of roll your own `TreeModel`. It is typically `File` or `Container` data objects being represented which lend themselves beautifully when implementing the `TreeModel` interface; these objects having an intrinsic parent/child relationship.
@@ -113,6 +118,10 @@ To run the demo you need **Java 8** installed. You can download from [here] (htt
 - Download [collectionTreeModel-demo.zip](https://github.com/mnrussell/collectionTreeModel/blob/master/collectionTreeModel-demo.zip?raw=true)
 - Unzip it
 - Launch `start_demo.bat` on Windows or `start_demo.sh` on Linux.
+
+
+![](https://github.com/mnrussell/collectionTreeModel/blob/master/demoScreenShot.png)
+
 
 ##Binaries
 
