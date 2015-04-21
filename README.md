@@ -4,10 +4,9 @@
  alt="CollectionTreeModel logo" title="CollectionTreeModel" align="right" />
 
 *CollectionTreeModel* is a Java Swing utility for the quick and easy creation of immutable
-TreeModels from Collections.  
-  
-  
-
+TreeModels from Collections.
+<br>
+<br>
 
 ##Background
 It is rarely the case that the data objects that you wish to present in a `JTree` enjoy the natural parent child relationship usually seen in examples of roll your own `TreeModel`. It is typically `File` or `Container` data objects being represented which lend themselves beautifully when implementing the `TreeModel` interface; these objects having an intrinsic parent/child relationship.
