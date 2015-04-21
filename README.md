@@ -110,7 +110,7 @@ We've used a String here for the id but it can be any Object as long as it is un
 
 To run the demo you need **Java 8** installed. You can download from [here] (https://www.java.com/en/download/).
 
-- Download [collectionTreeModel-demo.zip](collectionTreeModel-demo.zip)
+- Download [collectionTreeModel-demo.zip](https://github.com/mnrussell/collectionTreeModel/blob/master/collectionTreeModel-demo.zip?raw=true)
 - Unzip it
 - Launch `start_demo.bat` on Windows or `start_demo.sh` on Linux.
 
