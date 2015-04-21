@@ -1,5 +1,7 @@
 #CollectionTreeModel
 
+<img src="https://github.com/mnrussell/collectionTreeModel/blob/master/collectionTreeModelIcon.png"
+ alt="CollectionTreeModel logo" title="CollectionTreeModel" align="right" />
 
 *CollectionTreeModel* is a Java Swing utility for the quick and easy creation of immutable
 TreeModels from Collections.
@@ -113,6 +115,10 @@ To run the demo you need **Java 8** installed. You can download from [here] (htt
 - Download [collectionTreeModel-demo.zip](https://github.com/mnrussell/collectionTreeModel/blob/master/collectionTreeModel-demo.zip?raw=true)
 - Unzip it
 - Launch `start_demo.bat` on Windows or `start_demo.sh` on Linux.
+
+
+![](https://github.com/mnrussell/collectionTreeModel/blob/master/demoScreenShot.png)
+
 
 ##Binaries
 
