@@ -1,4 +1,4 @@
-# CollectionTreeModel
+#CollectionTreeModel
 
 <img src="https://github.com/mnrussell/collectionTreeModel/blob/master/collectionTreeModelIcon.png"
  alt="CollectionTreeModel logo" title="CollectionTreeModel" align="right" />
