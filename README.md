@@ -1,4 +1,5 @@
-#CollectionTreeModel
+# CollectionTreeModel
+[ ![Release] [release-image] ] [releases] ]
 
 <img src="https://github.com/mnrussell/collectionTreeModel/blob/master/collectionTreeModelIcon.png"
  alt="CollectionTreeModel logo" title="CollectionTreeModel" align="right" />
@@ -10,7 +11,7 @@ TreeModels from Collections.
 <br>
 <br>
 
-##Background
+## Background
 It is rarely the case that the data objects that you wish to present in a `JTree` enjoy the natural parent child relationship usually seen in examples of roll your own `TreeModel`. It is typically `File` or `Container` data objects being represented which lend themselves beautifully when implementing the `TreeModel` interface; these objects having an intrinsic parent/child relationship.
 
 In reality this is often not the case; the desired hiearchy is often a construct we wish to impose on some existing data.
@@ -112,7 +113,14 @@ We've used a String here for the id but it can be any Object as long as it is un
 
     int i = bookHiearchy.indexOf("authorNode"); // Returns 1 from the previous example
 
-##See the Swing Demo
+## Importing CollectionTreeModel
+To use `CollectionTreeModel` in your projects, download and place the latest [release](releases/latest) jar then:
+```
+import uk.polletto.swing.collectionTreeModel.CollectionTreeModel;
+import uk.polletto.swing.collectionTreeModel.Hierarchy;
+```
+
+## See the Swing Demo
 
 To run the demo you need **Java 8** installed. You can download from [here] (https://www.java.com/en/download/).
 
@@ -122,10 +130,3 @@ To run the demo you need **Java 8** installed. You can download from [here] (htt
 
 
 ![](https://github.com/mnrussell/collectionTreeModel/blob/master/demoScreenShot.png)
-
-
-##Binaries
-
-todo
-
-
