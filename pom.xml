@@ -2,9 +2,29 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>uk.polletto.collectionTreeModel</groupId>
   <artifactId>collectionTreeModel</artifactId>
-  <version>2015.04.20</version>
+  <version>1.0.0</version>
   <name>collectionTreeModel</name>
   <description>Support for creating Swing TreeModels from Collections.</description>
+
+  <dependencies>
+     <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.11</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>18.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>tablelayout</groupId>
+      <artifactId>TableLayout</artifactId>
+      <version>20050920</version>
+    </dependency>
+  </dependencies>
 
   <build>
     <sourceDirectory>src/main/java</sourceDirectory>
@@ -63,24 +83,13 @@
     </plugins>
   </build>
 
-  <dependencies>
-     <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>4.11</version>
-    </dependency>
 
-    <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>guava</artifactId>
-      <version>18.0</version>
-    </dependency>
-
-    <dependency>
-      <groupId>tablelayout</groupId>
-      <artifactId>TableLayout</artifactId>
-      <version>20050920</version>
-    </dependency>
-  </dependencies>
-  
+  <scm>
+  	<url>https://github.com/mnrussell/collectionTreeModel</url>
+  	<developerConnection>Matt Russell</developerConnection>
+  </scm>
+  <url>https://github.com/mnrussell/collectionTreeModel</url>
+  <organization>
+  	<name>Polletto</name>
+  </organization>
 </project>
