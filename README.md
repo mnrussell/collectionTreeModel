@@ -59,7 +59,7 @@ The order in which the nodes are added to the `Hierarchy` determines the orderin
 
 Alternatively we can combine the two steps and just use the `CollectionTreeModel.Builder`:
 
-    CollectionTreeModel<Book> bookTreeModel = CollectionTreeModel.Builder<>(books)
+    CollectionTreeModel<Book> bookTreeModel = new CollectionTreeModel.Builder<>(books)
          .addNode(b -> b.publisher)
          .addNode(b -> b.author)
          .addNode(b -> b.title)
