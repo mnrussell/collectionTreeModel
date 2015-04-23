@@ -1,5 +1,4 @@
 # CollectionTreeModel
-[ ![Release] [release-image] ] [releases] ]
 
 <img src="https://github.com/mnrussell/collectionTreeModel/blob/master/collectionTreeModelIcon.png"
  alt="CollectionTreeModel logo" title="CollectionTreeModel" align="right" />
@@ -114,7 +113,7 @@ We've used a String here for the id but it can be any Object as long as it is un
     int i = bookHiearchy.indexOf("authorNode"); // Returns 1 from the previous example
 
 ## Importing CollectionTreeModel
-To use `CollectionTreeModel` in your projects, download and place the latest [release](releases/latest) jar then:
+To use `CollectionTreeModel` in your projects, download and place the latest [release](../../releases/latest) jar then:
 ```
 import uk.polletto.swing.collectionTreeModel.CollectionTreeModel;
 import uk.polletto.swing.collectionTreeModel.Hierarchy;
@@ -124,9 +123,9 @@ import uk.polletto.swing.collectionTreeModel.Hierarchy;
 
 To run the demo you need **Java 8** installed. You can download from [here] (https://www.java.com/en/download/).
 
-- Download [collectionTreeModel-demo.zip](https://github.com/mnrussell/collectionTreeModel/blob/master/collectionTreeModel-demo.zip?raw=true)
+- Download [collectionTreeModel-demo.zip](collectionTreeModel-demo.zip?raw=true)
 - Unzip it
 - Launch `start_demo.bat` on Windows or `start_demo.sh` on Linux.
 
 
-![](https://github.com/mnrussell/collectionTreeModel/blob/master/demoScreenShot.png)
+![](demoScreenShot.png)
