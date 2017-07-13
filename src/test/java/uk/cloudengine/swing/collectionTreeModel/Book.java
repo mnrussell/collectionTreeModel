@@ -1,4 +1,4 @@
-package uk.polletto.swing.collectionTreeModel;
+package uk.cloudengine.swing.collectionTreeModel;
 
 class Book {
     String publisher;

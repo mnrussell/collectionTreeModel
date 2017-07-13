@@ -1,4 +1,4 @@
-package uk.polletto.swing.collectionTreeModel;
+package uk.cloudengine.swing.collectionTreeModel;
 
 import static org.junit.Assert.assertEquals;
 
@@ -11,6 +11,9 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 import com.google.common.collect.Lists;
+
+import uk.cloudengine.swing.collectionTreeModel.CollectionTreeModel;
+import uk.cloudengine.swing.collectionTreeModel.TreeUtils;
 
 public class CollectionTreeModelTest {
 

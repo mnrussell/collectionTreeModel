@@ -57,7 +57,7 @@
                 -->
                 <classpathPrefix>lib/</classpathPrefix>
                 <!-- Configures the main class of the demo application -->
-                <mainClass>uk.polletto.demo.collectionTreeModel.CollectionTreeModelDemo</mainClass>
+                <mainClass>uk.cloudengine.demo.collectionTreeModel.CollectionTreeModelDemo</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -90,6 +90,7 @@
   </scm>
   <url>https://github.com/mnrussell/collectionTreeModel</url>
   <organization>
-  	<name>Polletto</name>
+  	<name>cloud-engine.co.uk</name>
+  	<url>http:\\www.cloud-engine.co.uk</url>
   </organization>
 </project>

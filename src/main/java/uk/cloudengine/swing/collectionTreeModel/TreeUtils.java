@@ -1,4 +1,4 @@
-package uk.polletto.swing.collectionTreeModel;
+package uk.cloudengine.swing.collectionTreeModel;
 
 import java.util.Enumeration;
 import java.util.NoSuchElementException;
